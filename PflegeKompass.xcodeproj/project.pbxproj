@@ -1,0 +1,113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000001 /* PflegeKompassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001 /* PflegeKompassApp.swift */; };
+		B00000000000000000000002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002 /* AppState.swift */; };
+		B00000000000000000000003 /* PflegeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* PflegeModels.swift */; };
+		B00000000000000000000004 /* EntitlementEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000004 /* EntitlementEngine.swift */; };
+		B00000000000000000000005 /* DocumentServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000005 /* DocumentServices.swift */; };
+		B00000000000000000000006 /* LocalCareStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006 /* LocalCareStore.swift */; };
+		B00000000000000000000007 /* PKDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000007 /* PKDesignSystem.swift */; };
+		B00000000000000000000008 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008 /* OnboardingView.swift */; };
+		B00000000000000000000009 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000009 /* DashboardView.swift */; };
+		B00000000000000000000010 /* BenefitCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000010 /* BenefitCheckView.swift */; };
+		B00000000000000000000011 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000011 /* TodoListView.swift */; };
+		B00000000000000000000012 /* DocumentScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000012 /* DocumentScanView.swift */; };
+		B00000000000000000000013 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000013 /* SettingsView.swift */; };
+		B00000000000000000000014 /* PreviewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000014 /* PreviewContent.swift */; };
+		B00000000000000000000015 /* EntitlementEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000015 /* EntitlementEngineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000001 /* PflegeKompassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PflegeKompassApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 /* PflegeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PflegeModels.swift; sourceTree = "<group>"; };
+		A00000000000000000000004 /* EntitlementEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementEngine.swift; sourceTree = "<group>"; };
+		A00000000000000000000005 /* DocumentServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentServices.swift; sourceTree = "<group>"; };
+		A00000000000000000000006 /* LocalCareStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCareStore.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* PKDesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKDesignSystem.swift; sourceTree = "<group>"; };
+		A00000000000000000000008 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A00000000000000000000010 /* BenefitCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitCheckView.swift; sourceTree = "<group>"; };
+		A00000000000000000000011 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		A00000000000000000000012 /* DocumentScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScanView.swift; sourceTree = "<group>"; };
+		A00000000000000000000013 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A00000000000000000000014 /* PreviewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContent.swift; sourceTree = "<group>"; };
+		A00000000000000000000015 /* EntitlementEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementEngineTests.swift; sourceTree = "<group>"; };
+		A00000000000000000000016 /* PflegeKompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PflegeKompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000017 /* PflegeKompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PflegeKompassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		C00000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000001 = {isa = PBXGroup; children = (D00000000000000000000002 /* PflegeKompass */, D00000000000000000000010 /* PflegeKompassTests */, D00000000000000000000011 /* Products */); sourceTree = "<group>"; };
+		D00000000000000000000002 /* PflegeKompass */ = {isa = PBXGroup; children = (D00000000000000000000003 /* App */, D00000000000000000000004 /* Core */, D00000000000000000000005 /* Models */, D00000000000000000000006 /* Services */, D00000000000000000000007 /* Features */, A00000000000000000000014 /* PreviewContent.swift */); path = PflegeKompass; sourceTree = "<group>"; };
+		D00000000000000000000003 /* App */ = {isa = PBXGroup; children = (A00000000000000000000001 /* PflegeKompassApp.swift */, A00000000000000000000002 /* AppState.swift */); path = App; sourceTree = "<group>"; };
+		D00000000000000000000004 /* Core */ = {isa = PBXGroup; children = (A00000000000000000000006 /* LocalCareStore.swift */, D00000000000000000000008 /* DesignSystem */); path = Core; sourceTree = "<group>"; };
+		D00000000000000000000005 /* Models */ = {isa = PBXGroup; children = (A00000000000000000000003 /* PflegeModels.swift */); path = Models; sourceTree = "<group>"; };
+		D00000000000000000000006 /* Services */ = {isa = PBXGroup; children = (A00000000000000000000004 /* EntitlementEngine.swift */, A00000000000000000000005 /* DocumentServices.swift */); path = Services; sourceTree = "<group>"; };
+		D00000000000000000000007 /* Features */ = {isa = PBXGroup; children = (D00000000000000000000012 /* Onboarding */, D00000000000000000000013 /* Dashboard */, D00000000000000000000014 /* BenefitCheck */, D00000000000000000000015 /* Todos */, D00000000000000000000016 /* Documents */, D00000000000000000000017 /* Settings */); path = Features; sourceTree = "<group>"; };
+		D00000000000000000000008 /* DesignSystem */ = {isa = PBXGroup; children = (A00000000000000000000007 /* PKDesignSystem.swift */); path = DesignSystem; sourceTree = "<group>"; };
+		D00000000000000000000010 /* PflegeKompassTests */ = {isa = PBXGroup; children = (A00000000000000000000015 /* EntitlementEngineTests.swift */); path = PflegeKompassTests; sourceTree = "<group>"; };
+		D00000000000000000000011 /* Products */ = {isa = PBXGroup; children = (A00000000000000000000016 /* PflegeKompass.app */, A00000000000000000000017 /* PflegeKompassTests.xctest */); name = Products; sourceTree = "<group>"; };
+		D00000000000000000000012 /* Onboarding */ = {isa = PBXGroup; children = (A00000000000000000000008 /* OnboardingView.swift */); path = Onboarding; sourceTree = "<group>"; };
+		D00000000000000000000013 /* Dashboard */ = {isa = PBXGroup; children = (A00000000000000000000009 /* DashboardView.swift */); path = Dashboard; sourceTree = "<group>"; };
+		D00000000000000000000014 /* BenefitCheck */ = {isa = PBXGroup; children = (A00000000000000000000010 /* BenefitCheckView.swift */); path = BenefitCheck; sourceTree = "<group>"; };
+		D00000000000000000000015 /* Todos */ = {isa = PBXGroup; children = (A00000000000000000000011 /* TodoListView.swift */); path = Todos; sourceTree = "<group>"; };
+		D00000000000000000000016 /* Documents */ = {isa = PBXGroup; children = (A00000000000000000000012 /* DocumentScanView.swift */); path = Documents; sourceTree = "<group>"; };
+		D00000000000000000000017 /* Settings */ = {isa = PBXGroup; children = (A00000000000000000000013 /* SettingsView.swift */); path = Settings; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* PflegeKompass */ = {isa = PBXNativeTarget; buildConfigurationList = F00000000000000000000002 /* Build configuration list for PBXNativeTarget "PflegeKompass" */; buildPhases = (C00000000000000000000003 /* Sources */, C00000000000000000000001 /* Frameworks */, C00000000000000000000004 /* Resources */); buildRules = (); dependencies = (); name = PflegeKompass; productName = PflegeKompass; productReference = A00000000000000000000016 /* PflegeKompass.app */; productType = "com.apple.product-type.application"; };
+		E00000000000000000000002 /* PflegeKompassTests */ = {isa = PBXNativeTarget; buildConfigurationList = F00000000000000000000003 /* Build configuration list for PBXNativeTarget "PflegeKompassTests" */; buildPhases = (C00000000000000000000005 /* Sources */, C00000000000000000000002 /* Frameworks */, C00000000000000000000006 /* Resources */); buildRules = (); dependencies = (E00000000000000000000003 /* PBXTargetDependency */); name = PflegeKompassTests; productName = PflegeKompassTests; productReference = A00000000000000000000017 /* PflegeKompassTests.xctest */; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F00000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {E00000000000000000000001 = {CreatedOnToolsVersion = 15.0;}; E00000000000000000000002 = {CreatedOnToolsVersion = 15.0; TestTargetID = E00000000000000000000001;};};}; buildConfigurationList = F00000000000000000000001 /* Build configuration list for PBXProject "PflegeKompass" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = de; hasScannedForEncodings = 0; knownRegions = (de, Base); mainGroup = D00000000000000000000001; productRefGroup = D00000000000000000000011 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (E00000000000000000000001 /* PflegeKompass */, E00000000000000000000002 /* PflegeKompassTests */); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00000000000000000000004 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		C00000000000000000000006 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00000000000000000000003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B00000000000000000000001, B00000000000000000000002, B00000000000000000000003, B00000000000000000000004, B00000000000000000000005, B00000000000000000000006, B00000000000000000000007, B00000000000000000000008, B00000000000000000000009, B00000000000000000000010, B00000000000000000000011, B00000000000000000000012, B00000000000000000000013, B00000000000000000000014); runOnlyForDeploymentPostprocessing = 0; };
+		C00000000000000000000005 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B00000000000000000000015); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00000000000000000000003 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = E00000000000000000000001 /* PflegeKompass */; targetProxy = E00000000000000000000004 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		E00000000000000000000004 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = F00000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = E00000000000000000000001; remoteInfo = PflegeKompass; };
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		F00000000000000000000004 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0;}; name = Debug; };
+		F00000000000000000000005 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 5.0;}; name = Release; };
+		F00000000000000000000006 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSCameraUsageDescription = "PflegeKompass benötigt die Kamera, um Briefe lokal zu scannen."; INFOPLIST_KEY_UILaunchScreen_Generation = YES; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = de.pflegekompass.app; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; TARGETED_DEVICE_FAMILY = "1,2"; IPHONEOS_DEPLOYMENT_TARGET = 17.0;}; name = Debug; };
+		F00000000000000000000007 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSCameraUsageDescription = "PflegeKompass benötigt die Kamera, um Briefe lokal zu scannen."; INFOPLIST_KEY_UILaunchScreen_Generation = YES; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = de.pflegekompass.app; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; TARGETED_DEVICE_FAMILY = "1,2"; IPHONEOS_DEPLOYMENT_TARGET = 17.0;}; name = Release; };
+		F00000000000000000000008 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = de.pflegekompass.app.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PflegeKompass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PflegeKompass";}; name = Debug; };
+		F00000000000000000000009 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = de.pflegekompass.app.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PflegeKompass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PflegeKompass";}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00000000000000000000001 /* Build configuration list for PBXProject "PflegeKompass" */ = {isa = XCConfigurationList; buildConfigurations = (F00000000000000000000004 /* Debug */, F00000000000000000000005 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F00000000000000000000002 /* Build configuration list for PBXNativeTarget "PflegeKompass" */ = {isa = XCConfigurationList; buildConfigurations = (F00000000000000000000006 /* Debug */, F00000000000000000000007 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F00000000000000000000003 /* Build configuration list for PBXNativeTarget "PflegeKompassTests" */ = {isa = XCConfigurationList; buildConfigurations = (F00000000000000000000008 /* Debug */, F00000000000000000000009 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = F00000000000000000000001 /* Project object */;
+}

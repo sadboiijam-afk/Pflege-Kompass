@@ -5,7 +5,7 @@ Ein deutschsprachiges, lokales SwiftUI-MVP zur Orientierung bei einer neuen Pfle
 ## Was im MVP funktioniert
 
 - Pflegeprofil erfassen oder Demo starten
-- „Pflegegrad erhalten – was jetzt?“-Flow
+- „Pflegegrad erhalten – was jetzt?"-Flow
 - Vorsichtiger Anspruchs-Check ohne Beträge oder verbindliche Zusagen
 - Lokale To-dos und Vorlagen
 - Apple-Vision-Dokumentenscan mit regelbasierter Einordnung und Frist-Hinweis
